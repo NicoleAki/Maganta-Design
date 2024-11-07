@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(33, 1, 1, 0.936);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+header {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: inherit;
+}
+header > img {
+    width: 100%;
+}
+h1 {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+ ;
+}
+h1 > img {
+    width: 100%;
+    
+}
+
+h2 > img {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%; /* Set images under h2 to be equal in width */
+    height: auto;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex-shrink: 10rem;
+}
+
+/* Set images inside article to fit the dimensions of the viewing device */
+article img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+}
+
+footer > div {
+    flex-shrink: 10rem;
+}
+
+/* Set images in the footer to fit the width of the device */
+footer img {
+    width: 100%;
+}
